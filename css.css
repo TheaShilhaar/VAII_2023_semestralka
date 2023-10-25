@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+
+.brand-font {
+    font-weight: bold;
+    font-style: normal;
+    font-family: "Century Gothic";
+    font-size: 180%;
+}
+
+.menu-font {
+    font-family: "Century Gothic";
+}
+
+.search-font {
+    font-family: "Century Gothic";
+    font-weight: bold;
+}
+
+.footer-font {
+    font-family: "Century Gothic";
+    text-decoration: none;
+    color: #FFFFFF8C;
+}
+
+.center-aligned {
+    text-align: center;
+}
+
+.home {
+    background-image: url("images/what_2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+}
+
