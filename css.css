@@ -2,6 +2,18 @@ body {
     background-color: black;
 }
 
+h5 {
+    font-weight: bold;
+    font-style: normal;
+    font-family: "Century Gothic";
+    font-size: 100px;
+}
+
+.tour-info {
+    font-family: "Century Gothic";
+    font-size: 48px;
+}
+
 .brand-font {
     font-weight: bold;
     font-style: normal;
@@ -86,4 +98,5 @@ body {
     text-align: center;
     color: #FFFFFFBF;
 }
+
 
