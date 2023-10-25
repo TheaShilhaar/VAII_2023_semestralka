@@ -32,11 +32,58 @@ body {
     background-image: url("images/what_2.png");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 400px;
-    height: 400px;
-    top: 50%;
+    width: 378px;
+    height: 405px;
+    top: 30vh;
     transform: translate(-50%, -50%);
     position: absolute;
     left: 50%;
+}
+
+.menu {
+    background-color: #1a3865;
+    list-style: none;
+    margin: 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    top: 65vh;
+    transform: translate(-50%,-50%);
+    left: 50%;
+}
+
+.welcome-menu {
+    list-style: none;
+    margin: 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-size: 48px;
+    font-family: "Century Gothic";
+    text-align: center;
+    color: #FFFFFFBF;
+}
+
+.welcome-sub-menu {
+    list-style: none;
+    margin: 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+.welcome-menu:hover, .sub-menu:hover, .sub-menu-extra:hover {
+    font-weight: bold;
+    color: #FFFFFFFF;
+}
+
+.sub-menu {
+    font-style: italic;
+    font-size: 35px;
+    font-family: "Century Gothic";
+    color: #FFFFFFBF;
+}
+
+.sub-menu-extra {
+    font-size: 30px;
+    font-family: "Century Gothic";
+    text-align: center;
+    color: #FFFFFFBF;
 }
 
